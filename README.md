@@ -1,5 +1,11 @@
 # AI Smart Email Assistant 📧🤖
 
+1)Download the email-writer-ext folder from GitHub.
+2)Open Chrome and go to chrome://extensions/.
+3)Enable Developer Mode (top right).
+4)Click Load unpacked and select the folder.
+THE EXTENSION WILL BE UP RUNNING.
+
 An AI-powered, full-stack application and Chrome Extension that integrates directly into Gmail to generate context-aware, professional email replies. 
 
 This project consists of a Spring Boot REST API, a React web dashboard, and a custom Chrome Extension that injects an "AI Reply" button directly into the Gmail compose window.
@@ -109,3 +115,4 @@ Click it to automatically read the email thread and generate a response directly
 
 ⚠️ Important Note About API Keys
 Do NOT upload your application.properties or .env files containing your Gemini API keys to GitHub. This repository uses .gitignore to keep those files secure. If you fork this project, be sure to keep your keys hidden!
+
